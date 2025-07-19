@@ -26,7 +26,7 @@ endif()
 
 # Install the launch directory and its contents
 install(
-  DIRECTORY launch onshape
+  DIRECTORY launch onshape models
   DESTINATION share/${PROJECT_NAME}
 )
 
